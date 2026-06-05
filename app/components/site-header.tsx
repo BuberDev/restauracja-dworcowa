@@ -68,10 +68,10 @@ export function SiteHeader({ contact, navItems }: SiteHeaderProps) {
           >
             <span className="shrink-0 drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
               <Image
-                src="/images/dworcowa/logo-white.svg"
+                src="/images/dworcowa/logo-white.png"
                 alt="Restauracja Dworcowa"
-                width={240}
-                height={140}
+                width={1200}
+                height={520}
                 className="h-12 w-auto object-contain lg:h-14"
                 priority
               />
@@ -157,10 +157,10 @@ export function SiteHeader({ contact, navItems }: SiteHeaderProps) {
         <div className="flex items-center justify-between border-b border-white/10 px-5 py-5">
           <a href="#start" onClick={close} className="shrink-0">
             <Image
-              src="/images/dworcowa/logo-white.svg"
+              src="/images/dworcowa/logo-white.png"
               alt="Restauracja Dworcowa"
-              width={220}
-              height={128}
+              width={1200}
+              height={520}
               className="h-12 w-auto object-contain"
             />
           </a>

@@ -57,11 +57,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/images/dworcowa/icon.png", type: "image/png", sizes: "512x512" },
-      { url: "/favicon.ico", sizes: "any" },
+      { url: "/images/dworcowa/icon.png?v=dworcowa-logo", type: "image/png", sizes: "512x512" },
+      { url: "/favicon.ico?v=dworcowa-logo", sizes: "any" },
     ],
-    shortcut: "/favicon.ico",
-    apple: "/images/dworcowa/icon.png",
+    shortcut: "/favicon.ico?v=dworcowa-logo",
+    apple: "/images/dworcowa/icon.png?v=dworcowa-logo",
   },
 };
 

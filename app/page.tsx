@@ -270,12 +270,6 @@ const gallery = [
     description: "Kawa, herbata, szarlotka i codzienne zupy pojawiają się w opiniach gości.",
     image: "/images/dworcowa/zupa-i-deser.jpg",
   },
-  {
-    title: "Telefon do zamówień",
-    label: "Kontakt",
-    description: "Baner restauracji z numerem telefonu do szybkich zamówień.",
-    image: "/images/dworcowa/banner-contact.png",
-  },
 ];
 
 const restaurantJsonLd = {
@@ -741,8 +735,8 @@ function AboutSection() {
       <div className={`${shell} grid gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:items-center`}>
         <div className="relative min-h-[460px] overflow-hidden rounded-[8px] border bg-black shadow-sm sm:min-h-[560px]">
           <Image
-            src="/images/dworcowa/banner-contact.png"
-            alt="Baner Restauracji Dworcowa z numerem telefonu"
+            src="/images/dworcowa/about-food.jpg"
+            alt="Domowy obiad w Restauracji Dworcowa"
             fill
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 48vw"
@@ -931,10 +925,10 @@ function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex justify-center sm:justify-start">
               <Image
-                src="/images/dworcowa/logo-white.svg"
+                src="/images/dworcowa/logo-white.png"
                 alt="Restauracja Dworcowa"
-                width={240}
-                height={140}
+                width={1200}
+                height={520}
                 className="h-20 w-auto object-contain opacity-90 transition-opacity hover:opacity-100"
               />
             </div>
