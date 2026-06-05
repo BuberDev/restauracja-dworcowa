@@ -29,9 +29,9 @@ const title = "Restauracja Dworcowa | Domowe obiady w Gorlicach";
 const description =
   "Restauracja Dworcowa w Gorlicach przy ul. Bardiowskiej 3: domowe obiady, dania dnia, zupy, kawa, szarlotka i zamówienia na wynos.";
 const socialImage = {
-  url: "/images/dworcowa/banner-contact.png",
-  width: 1140,
-  height: 441,
+  url: "/social_media_banner.png",
+  width: 2172,
+  height: 724,
   alt: "Restauracja Dworcowa w Gorlicach",
   type: "image/png",
 };
