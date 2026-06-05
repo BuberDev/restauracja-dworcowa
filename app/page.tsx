@@ -327,11 +327,11 @@ function HeroSection() {
         className="absolute inset-0 h-full w-full object-cover"
         style={{ filter: "sepia(0.24) saturate(0.62) contrast(0.96) brightness(0.88)" }}
       >
-        <source src="/video_hero.mp4" type="video/mp4" />
+        <source src="/video_hero.mp4.mov" type="video/mp4" />
       </video>
       <div className="absolute inset-0 bg-[#20150d]/68" />
       <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(22,12,5,0.80)_0%,rgba(22,12,5,0.60)_44%,rgba(70,42,18,0.22)_100%)]" />
-      <div className="absolute inset-x-0 bottom-0 h-56 bg-[linear-gradient(180deg,rgba(251,244,233,0)_0%,rgba(251,244,233,0.60)_74%,var(--background)_100%)]" />
+      <div className="absolute inset-x-0 bottom-0 h-32 bg-[linear-gradient(180deg,rgba(251,244,233,0)_0%,rgba(251,244,233,0.12)_100%)]" />
 
       <div className={`${shell} relative z-10 flex min-h-[calc(100svh-6rem)] items-center py-16`}>
         <div className="max-w-3xl">
@@ -1032,8 +1032,8 @@ function SectionLabel({
     <div className={`flex items-center gap-3 ${center ? "justify-center" : ""}`}>
       <span
         className={`flex h-8 w-8 items-center justify-center rounded-[8px] border ${inverted
-            ? "border-[#d9b46f]/25 bg-white/5 text-[#d9b46f]"
-            : "border-primary/15 bg-primary/10 text-primary"
+          ? "border-[#d9b46f]/25 bg-white/5 text-[#d9b46f]"
+          : "border-primary/15 bg-primary/10 text-primary"
           }`}
       >
         {icon}
