@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Restauracja Dworcowa</title>
+  <desc id="desc">Biale logo Restauracji Dworcowa na przezroczystym tle.</desc>
+  <g fill="none" stroke="#fff" stroke-linecap="round" opacity="0.92">
+    <path d="M118 108c90-50 394-50 484 0" stroke-width="7"/>
+    <path d="M118 360c90 50 394 50 484 0" stroke-width="7"/>
+  </g>
+  <g fill="#fff" opacity="0.98" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="360" y="140" font-size="34" letter-spacing="8">RESTAURACJA</text>
+    <text x="360" y="224" font-size="86" font-weight="700" letter-spacing="8">DWORCOWA</text>
+    <text x="360" y="284" font-size="27" font-weight="700" letter-spacing="3">USLUGI KATERINGOWE</text>
+    <text x="360" y="334" font-size="36" letter-spacing="5">GORLICE</text>
+  </g>
+</svg>
